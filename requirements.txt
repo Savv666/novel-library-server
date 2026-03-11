@@ -1,0 +1,6 @@
+fanficfare
+requests
+beautifulsoup4
+jinja2
+ebooklib
+feedparser

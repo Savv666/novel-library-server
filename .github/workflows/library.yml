@@ -1,0 +1,58 @@
+name: Build Novel Library
+
+# Trigger manually via the GitHub UI and on a schedule.  The schedule
+# runs at minute 17 every hour to avoid the start-of-hour rush on
+# GitHub's infrastructure.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out the repository contents so that we can modify files
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Set up Python so our scripts can run
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Install the Python dependencies declared in requirements.txt
+      - name: Install dependencies
+        run: pip install -r novel-library/requirements.txt
+
+      # Build or update the library metadata and download novels
+      - name: Download novels
+        run: python novel-library/download_novels.py
+
+      # Generate RSS feeds for each novel based on the metadata
+      - name: Generate RSS feeds
+        run: python novel-library/generate_rss.py
+
+      # Build the static library page using the metadata and Jinja template
+      - name: Build library page
+        run: python novel-library/build_library_page.py
+
+      # Ensure docs directory exists and GitHub Pages will serve from it
+      - name: Create .nojekyll to disable Jekyll
+        run: |
+          mkdir -p novel-library/docs
+          touch novel-library/docs/.nojekyll
+
+      # Commit the updated library, feeds and index page back to the repository
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          # Stage changes from the docs and state directories
+          git add novel-library/docs novel-library/state novel-library/novel-links.txt
+          git commit -m "Automated update of novels, library page and feeds" || echo "No changes to commit"
+          git push

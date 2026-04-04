@@ -7,10 +7,10 @@
     "epub_url": "fiction/book.epub",
     "cover_url": "fiction/cover.jpg",
     "chapter_count": 111,
-    "updated_at": "2026-04-04 06:12:35 UTC",
+    "updated_at": "2026-04-04 07:17:23 UTC",
     "size_mb": 2.6,
     "status": "ok",
-    "log_excerpt": "You have include_images enabled, but PIL/Pillow (Python Image Library) isn't found.\nImages will be included full size in original format.\nContinue? (y/n)?\ny\n\nFFF: WARNING: 2026-04-04 06:12:35,360: base_writer.py(213): File(docs/fiction/book.epub) Updated(2026-04-04) more recently than Story(2023-07-06) - Skipping\n"
+    "log_excerpt": "You have include_images enabled, but PIL/Pillow (Python Image Library) isn't found.\nImages will be included full size in original format.\nContinue? (y/n)?\ny\n\nFFF: WARNING: 2026-04-04 07:17:23,522: base_writer.py(213): File(docs/fiction/book.epub) Updated(2026-04-04) more recently than Story(2023-07-06) - Skipping\n"
   },
   {
     "slug": "novel",
@@ -20,7 +20,7 @@
     "epub_url": null,
     "cover_url": null,
     "chapter_count": null,
-    "updated_at": "2026-04-04 06:12:35 UTC",
+    "updated_at": "2026-04-04 07:17:23 UTC",
     "size_mb": 0.0,
     "status": "failed",
     "log_excerpt": "m, quotev.com, readonlymind.com, samandjack.net, scifistories.com, sheppardweir.com, sinful-dreams.com, sinful-dreams.com, spikeluver.com, squidgeworld.org, starslibrary.net, storiesonline.net, storyroom.com, superlove.sayitditto.net, syosetu.com, t.evancurrie.ca, test1.com, test2.com, test3.com, test4.com, tgstorytime.com, thehookupzone.net, themasque.net, touchfluffytail.org, trekfanfiction.net, valentchamber.com, voracity2.e-fic.com, www.adastrafanfic.com, www.adult-fanfiction.org, www.alternatehistory.com, www.aneroticstory.com, www.asexstories.com, www.asianfanfics.com, www.bdsmlibrary.com, www.cfaarchive.org, www.deviantart.com, www.dokuga.com, www.dracoandginny.com, www.fanficauthors.net, www.fanfiction.net, www.fanfictions.fr, www.fanfiktion.de, www.fictionalley-archive.org, www.fictionpress.com, www.fimfiction.net, www.fireflyfans.net, www.giantessworld.net, www.hentai-foundry.com, www.libraryofmoria.com, www.masseffect2.in, www.mediaminer.org, www.midnightwhispers.net, www.mugglenetfanfiction.com, www.naiceanilme.net, www.narutofic.org, www.novelall.com, www.phoenixsong.net, www.potionsandsnitches.org, www.pretendercentre.com, www.psychfic.com, www.royalroad.com, www.scribblehub.com, www.siye.co.uk, www.spiritfanfiction.com, www.storiesofarda.com, www.sunnydaleafterdark.com, www.the-sietch.com, www.thedelphicexpanse.com, www.tthfanfic.org, www.twilighted.net, www.utopiastories.com, www.walkingtheplank.org, www.wattpad.com, www.whofic.com, www.wolverineandrogue.com)\n"
@@ -33,7 +33,7 @@
     "epub_url": null,
     "cover_url": null,
     "chapter_count": null,
-    "updated_at": "2026-04-04 06:12:36 UTC",
+    "updated_at": "2026-04-04 07:17:24 UTC",
     "size_mb": 0.0,
     "status": "failed",
     "log_excerpt": "m, quotev.com, readonlymind.com, samandjack.net, scifistories.com, sheppardweir.com, sinful-dreams.com, sinful-dreams.com, spikeluver.com, squidgeworld.org, starslibrary.net, storiesonline.net, storyroom.com, superlove.sayitditto.net, syosetu.com, t.evancurrie.ca, test1.com, test2.com, test3.com, test4.com, tgstorytime.com, thehookupzone.net, themasque.net, touchfluffytail.org, trekfanfiction.net, valentchamber.com, voracity2.e-fic.com, www.adastrafanfic.com, www.adult-fanfiction.org, www.alternatehistory.com, www.aneroticstory.com, www.asexstories.com, www.asianfanfics.com, www.bdsmlibrary.com, www.cfaarchive.org, www.deviantart.com, www.dokuga.com, www.dracoandginny.com, www.fanficauthors.net, www.fanfiction.net, www.fanfictions.fr, www.fanfiktion.de, www.fictionalley-archive.org, www.fictionpress.com, www.fimfiction.net, www.fireflyfans.net, www.giantessworld.net, www.hentai-foundry.com, www.libraryofmoria.com, www.masseffect2.in, www.mediaminer.org, www.midnightwhispers.net, www.mugglenetfanfiction.com, www.naiceanilme.net, www.narutofic.org, www.novelall.com, www.phoenixsong.net, www.potionsandsnitches.org, www.pretendercentre.com, www.psychfic.com, www.royalroad.com, www.scribblehub.com, www.siye.co.uk, www.spiritfanfiction.com, www.storiesofarda.com, www.sunnydaleafterdark.com, www.the-sietch.com, www.thedelphicexpanse.com, www.tthfanfic.org, www.twilighted.net, www.utopiastories.com, www.walkingtheplank.org, www.wattpad.com, www.whofic.com, www.wolverineandrogue.com)\n"
